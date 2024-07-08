@@ -1,1 +1,26 @@
-/*********************** CSS UTILI ***********************/
+/*********************** CSS UTILI ***********************/ 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+HTML {
+    background-color: black;
+    color: white;
+}
+
+
+#app {
+    border: 1px solid gray;
+    border-radius: 2rem;
+    background-color: rgb(15, 15, 15);
+    
+    /* Boxing del main */
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
